@@ -10,7 +10,7 @@ export default function ProjectCompHome1() {
           className="w-full object-cover scale-105 group-hover:scale-100 transition-all duration-300"
         />
         <div
-          className="absolute w-full h-16 bottom-0 bg-gradient-to-t from-black to-transparent p-4 flex items-center justify-between opacity-0 
+          className="absolute w-full h-16 bottom-0 bg-gradient-to-t from-[var(--card-bg-color)] to-transparent p-4 flex items-center justify-between opacity-0 
         translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300"
         >
           <div>

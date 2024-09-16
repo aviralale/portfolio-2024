@@ -1,4 +1,4 @@
-import AvatarImg from "../assets/images/pfp.jpg";
+import AvatarImg from "../assets/images/avatar.png";
 export default function Avatar() {
   return (
     <div className="h-full w-full border border-gray-500/50 aspect-square overflow-hidden rounded-3xl">

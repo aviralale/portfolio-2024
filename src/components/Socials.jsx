@@ -27,8 +27,8 @@ export default function Socials() {
   ];
 
   return (
-    <div className="flex flex-col space-y-4 h-full">
-      <div className="flex space-x-4">
+    <div className="flex flex-col gap-4 h-full">
+      <div className="flex gap-4">
         {socials.slice(0, 2).map((social, index) => (
           <Social
             key={index}

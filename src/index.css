@@ -39,11 +39,6 @@ body,
   overflow: hidden;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 [data-theme="dark"] {
   --bg-color: black;
   --text-color: #ffffff;

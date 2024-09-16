@@ -8,7 +8,7 @@ export default function Social({ icon, link, bg }) {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="card rounded-3xl h-full w-full flex justify-center items-center p-10 card transition duration-300 ease-in-out"
+      className="card rounded-3xl h-full w-full flex justify-center items-center border border-gray-500/50 p-10 card transition duration-300 ease-in-out"
       style={{ backgroundColor: hover ? bg : "var(--card-bg-color)" }}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
